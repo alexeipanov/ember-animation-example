@@ -1,0 +1,40 @@
+.view {
+  padding: 10px;
+  border: 1px solid #CCC;
+  width: 450px;
+  height: 300px;
+}
+
+.animated {
+  animation: 1s ease-in-out fadein;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0.5;
+    filter: saturate(0%);
+  }
+  to {
+    opacity: 1;
+    filter: saturate(100%);
+  }
+}
+
+.thumb {
+  padding: 3px;
+  border: 1px solid #CCC;
+  width: 150px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.thumbs {
+  margin-top: 1rem;
+}

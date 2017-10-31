@@ -1,0 +1,8 @@
+<div class="wrapper">
+  {{image-lightbox image=selected}}
+  <div class="thumbs">
+    {{#each images as |image|}}
+      <img src="{{image.image}}" class="thumb" {{action 'select' image}}>
+    {{/each}}
+  </div>
+</div>
