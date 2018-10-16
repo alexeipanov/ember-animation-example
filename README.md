@@ -14,3 +14,6 @@ So every time when `selected` is changed, `didUpdateAttr` event is fired, and we
 
 And finally, to make possible to view animation for the next time, we need to remove the CSS class when an animation is ended.
 To do this, just add an event listener to `animationend` event, which removes CSS class - with little help of `didInsertElement` event.
+
+### Update dependencies first!
+- [ ] please update dependencies
