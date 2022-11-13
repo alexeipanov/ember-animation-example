@@ -2,10 +2,6 @@
 
 This is an example for create animated elements in Ember.
 
-## Demo
-
-Live [demo](http://animation.redlime.pw/)
-
 ## Idea
 When a thumbnail image is clicked, we update `selected` property of `image-gallery` component.
 
